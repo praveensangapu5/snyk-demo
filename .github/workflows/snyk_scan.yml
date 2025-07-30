@@ -1,6 +1,5 @@
 name: Example workflow for Python using Snyk
-on:
- workflow_dispatch:
+on: push
 jobs:
   security:
     runs-on: ubuntu-latest
